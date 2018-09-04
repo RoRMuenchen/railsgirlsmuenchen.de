@@ -708,7 +708,7 @@ background:url('../images/rg-yourcityname.png') no-repeat 0 10px,
 
 .munich#promo {
   padding-left:340px;
-  background:url('../images/munich/railsgirlsmunich.png') no-repeat 0 10px,
+  background:url('../images/munich/railsgirlsmunich.png') no-repeat 0px,
                  url('../images/separator.png') no-repeat center bottom;
 }
 
@@ -1438,6 +1438,7 @@ pre {
 
 .tokyo-2012-09-07#promo h1 {
   background:url('../images/rg-tokyo-header-2012-09-07.png') no-repeat left top;
+  padding: 10px;
 }
 
 .tokyo-2013-03-01#promo h1 {
@@ -4418,3 +4419,13 @@ h1.bern {
   margin-top: 10px;
 }
 
+.sendai#promo {
+    padding-left: 420px;
+    background: url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
+url('../images/separator.png') no-repeat center bottom;
+    background-size: 390px;
+}
+
+.sendai#promo h1 {
+    background:url('../images/rg-sendai-2018-11-03.png') no-repeat left top;
+}
