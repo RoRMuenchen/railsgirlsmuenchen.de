@@ -250,8 +250,8 @@ input.form-control.tito-discount-code-field.discount-code-field{
     }
 }
 .tito-submit:hover{
-    border-color: #285e8e !important;
-    background: #3276b1 !important
+    border-color: #621b08 !important;
+    background: #621b08 !important
 }
 .tito-ticket.tito-locked-ticket > div{
     padding: 10px 0 !important
