@@ -2070,6 +2070,7 @@ a{
 a img, img a, img {
   border:0;
   margin: 3px;
+  padding-left: 4px;
 }
 
 
