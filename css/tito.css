@@ -64,7 +64,7 @@
     padding: 4px 5px !important;
     position: relative !important;
     float: right;
-    top: -3px !important;
+    top: -3 px !important;
     text-transform: uppercase !important
 }
 .tito-ticket-name-wrapper .tito-tickets-remaining {
@@ -157,7 +157,7 @@ input[type = text].tito-ticket-donation-field{
     padding: 0 10px;
     text-align: center;
     text-decoration: none;
-    width: 100%
+    margin-top: 8px;
 }
 .btn.btn-default.btn-waitlist{
     background: #fff;
