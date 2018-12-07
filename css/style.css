@@ -1984,7 +1984,8 @@ h4.warsaw {
 
 .feature p {
   font-size:17px;
-  padding:20px 10px 30px;
+  padding:10px 10px 30px;
+  margin-left: 75px;
 }
 
 .feature p strong {
@@ -2196,7 +2197,7 @@ nav a:hover{
 footer {
   color:#666;
   overflow:hidden;
-  width:100%;
+  width:1000px;
   padding:40px 0;
   background:#F4F4F4;
   line-height:1.5;
@@ -3900,4 +3901,123 @@ small.cali-role{ font-size: 80%; }
 tito-widget {
   font-size: 0.8em;
   list-style-position: outside;
+}
+
+.slider-container {
+  width: 1000px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image-container {
+   width: 5000px;
+   height: 500px;
+   position: relative;
+   transition: left 2s;
+   -webkit-transition: left 2s;
+   -moz-transition: left 2s;
+   -o-transition: left 2s;
+}
+
+.slider-image {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button-container {
+  top: -20px;
+  position: relative;
+}
+
+.slider-button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#slider-image-1:target ~ .image-container {
+  left: 0px;
+}
+
+#slider-image-2:target ~ .image-container {
+  left: -1000px;
+}
+
+#slider-image-3:target ~ .image-container {
+  left: -2000px;
+}
+
+#slider-image-4:target ~ .image-container {
+  left: -3000px;
+}
+
+#slider-image-5:target ~ .image-container {
+  left: -4000px;
+}
+
+
+#gallery {
+  position: relative;
+}
+
+#gallery figure {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  animation: wechseln 15s infinite;
+
+
+}
+
+#gallery figure:last-of-type {
+  position: relative;
+
+}
+
+#gallery figcaption {
+  position: absolute;
+  left: 1em;
+  bottom: 0.5em;
+  z-index: 2;
+  margin: -1em;
+  padding-left: 3.5em;
+}
+
+
+
+
+@keyframes wechseln {
+    0% {opacity: 0;}
+   20% {opacity: 1;}
+   40% {opacity: 1;}
+   60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+#gallery figure:nth-of-type(2) {
+  animation-delay: 5s;
+  opacity: 0;
+}
+
+#gallery figure:nth-of-type(3) {
+  animation-delay: 10s;
+  opacity: 0;
+}
+
+#gallery figure:nth-of-type(4) {
+  animation-delay: 15s;
+  opacity: 0;
+}
+
+#gallery figure:nth-of-type(5) {
+  animation-delay: 20s;
+  opacity: 0;
 }
